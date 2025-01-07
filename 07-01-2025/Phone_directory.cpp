@@ -3,7 +3,7 @@ May be the brute force wikk work till 30 inputs but then it will give answer
 
 ### Intuition for the Code:
 
-1. **Sorting Contacts**: The list of contacts is first sorted lexicographically to make it easier to search for matching prefixes. This ensures that when we search for matches for a given prefix, the matches are returned in lexicographical order.
+1. **Sorting Contacts**: Tjihe list of contacts is first sorted lexicographically to make it easier to search for matching prefixes. This ensures that when we search for matches for a given prefix, the matches are returned in lexicographical order.
 
 2. **Prefix Construction**: The idea is to progressively build the prefix from the query string `s`. For each character in the query string, we form the prefix and check for contacts that start with this prefix.
 
